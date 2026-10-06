@@ -1,0 +1,188 @@
+/* Configuração geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f8f9;
+    color: #333;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background-color: #087e8b;
+    color: white;
+
+    padding: 20px 10%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Início */
+
+.inicio {
+    text-align: center;
+
+    padding: 100px 20px;
+
+    background-color: #dff4f6;
+}
+
+.inicio h2 {
+    font-size: 40px;
+    color: #087e8b;
+    margin-bottom: 20px;
+}
+
+.inicio p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+/* Botões */
+
+button {
+    background-color: #087e8b;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 14px 25px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #065f69;
+}
+
+
+/* Destinos */
+
+.destinos {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.destinos h2 {
+    color: #087e8b;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+article {
+    background-color: white;
+
+    width: 250px;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px #ccc;
+}
+
+article h3 {
+    color: #087e8b;
+    margin-bottom: 15px;
+}
+
+article p {
+    margin-bottom: 15px;
+}
+
+article strong {
+    color: #087e8b;
+}
+
+
+/* Oferta */
+
+.oferta {
+    text-align: center;
+
+    padding: 60px 20px;
+
+    background-color: #087e8b;
+
+    color: white;
+}
+
+.oferta h2 {
+    margin-bottom: 15px;
+}
+
+.oferta p {
+    margin-bottom: 25px;
+}
+
+.oferta button {
+    background-color: white;
+    color: #087e8b;
+}
+
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+
+    background-color: #12343b;
+    color: white;
+
+    padding: 30px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Viagens internacionais */
+
+.internacionais {
+    padding: 60px 10%;
+    text-align: center;
+    background-color: #e8f5f7;
+}
+
+.internacionais h2 {
+    color: #087e8b;
+    margin-bottom: 15px;
+}
+
+.internacionais > p {
+    margin-bottom: 30px;
+}
+
+
